@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador De Texto</title>
+</head>
+<body>
+    <header class="header">
+            <img src="imganes/Logo.png" alt="Logo de Alura" class="header_logo">
+    </header>
+
+    <!--Contenido-->
+
+    <main class="presentacion">
+        <div class="presentacionDe_Contenido">
+            <textarea class="tex_tarea" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+
+        <div class="presentacionDe_Advertencia">
+            <img src="imganes/bi_exclamation-circle-fill.png" alt="icono de advertencia" >
+            <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="presentacionDe_Botones">
+            <input type="button" class="presentacionDe_Enlaces_Boton_Encriptar" value="Encriptar">
+            <input type="button" class="presentacionDe_Enlaces_Boton_Desencriptar" value="Desencriptar">
+        </div>
+
+        <div class="presentacionDe_Texto">
+            <div class="con_muneco">
+                <img src="imganes/Muñeco.png" alt="Una persona mirando un diamante a travez de una lupa" >
+            </div>
+            <div class="presentacionDe_Texto_Encriptado">    
+                <h2 class="presentacionDe_Texto_Encriptado_Mensaje">Ningún mensaje fue encontrado</h2>
+                <p class="presentacionDe_Texto_Encriptado_Parrafo">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div class="copiar-mensaje">
+                <input type="button" class="copiarMensaje" value="Copiar">
+            </div>
+            
+            <div class="contenedorResultado">
+                <p class="textoResultado"></p>
+            </div>
+        </div>
+    </main>
+
+    <!--Pie de página-->
+    <footer class="footer">
+        <p>&copy; Copyright 2024 - Elaborado por Daniela Zurita Jimenez</p>
+    </footer>
+
+    <script src="encriptador.js"></script>
+</body>
+</html>
